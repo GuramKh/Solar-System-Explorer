@@ -1,4 +1,6 @@
-const BASE_URL = '/api';
+const BASE_URL = import.meta.env.PROD 
+  ? 'https://planets-api-yakh.onrender.com'
+  : '/api';
 
 const getPlanets = async () => {
   const response = await fetch(`${BASE_URL}/planets`);
