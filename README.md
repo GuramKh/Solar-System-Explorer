@@ -64,28 +64,9 @@ A stunning interactive web application that brings the solar system to life, cra
     npm run format → Format code with Prettier
 
 ### Project Architecture
-  public/
-  └── assets/         # SVG Assets & Images
-  src/
-  ├── components/           # UI Components
-  │   ├── ErrorBoundary     # Error Handling Component
-  │   ├── Header            # Main Navigation & Header
-  │   ├── InfoTabs          # Planet Information Tabs
-  │   ├── LanguageSwitch    # Language Toggle Component
-  │   ├── PlanetView        # Planet Display Components
-  │   │   └── PlanetInfo    # Planet Details Display
-  │   ├── Statistics        # Planet Statistics Display
-  │   └── ThemeToggle       # Theme Switch Component
-  ├── context/        # React Context Providers
-  ├── hooks/          # Custom React Hooks
-  ├── i18n/           # Internationalization Config
-  ├── layouts/        # Layout Templates
-  ├── pages/          # Route Pages
-  ├── services/       # API Services
-  │   └── api         # API Endpoints
-  ├── types/          # TypeScript Definitions
-  ├── utils/          # Utility Functions
-  └── App.tsx         # Root Component
+public/ └── assets/ # SVG Assets & Images
+
+src/ ├── components/ # UI Components │ ├── ErrorBoundary # Error Handling Component │ ├── Header # Main Navigation & Header │ ├── InfoTabs # Planet Information Tabs │ ├── LanguageSwitch # Language Toggle Component │ ├── PlanetView # Planet Display Components │ │ └── PlanetInfo # Planet Details Display │ ├── Statistics # Planet Statistics Display │ └── ThemeToggle # Theme Switch Component ├── context/ # React Context Providers ├── hooks/ # Custom React Hooks ├── i18n/ # Internationalization Config ├── layouts/ # Layout Templates ├── pages/ # Route Pages ├── services/ # API Services │ └── api # API Endpoints ├── types/ # TypeScript Definitions ├── utils/ # Utility Functions └── App.tsx # Root Component
 
 
 
