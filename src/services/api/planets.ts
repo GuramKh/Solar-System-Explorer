@@ -1,4 +1,4 @@
-const BASE_URL = '/api';
+const BASE_URL = 'https://planets-api-yakh.onrender.com';
 
 const getPlanets = async () => {
   const response = await fetch(`${BASE_URL}/planets`);
