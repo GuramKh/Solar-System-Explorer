@@ -1,13 +1,13 @@
 A stunning interactive web application that brings the solar system to life, crafted with React and TypeScript. Explore detailed information about each planet with smooth animations and seamless transitions.
 
-✨ Key Features
+### Key Features
   🚀 Interactive planet exploration
   📚 Rich, detailed planetary information
   🎯 Smooth animations and transitions
   🌓 Elegant Dark/Light theme
   🌐 Bilingual support (English/Georgian)
   📱 Responsive design across all devices
-🛠️ Technologies & Tools
+### Technologies & Tools
   ### Core Foundation
     ⚛️ React 18.2.0
     📘 TypeScript 4.9.5
@@ -35,7 +35,7 @@ A stunning interactive web application that brings the solar system to life, cra
 
   ### Installation Steps
     Clone the Repository
-    git clone https://github.com/yourusername/solar-system-explorer.git
+    git clone https://github.com/GuramKh/Solar-System-Explorer.git
 
   ### Install Dependencies
     cd solar-system-explorer
@@ -56,37 +56,36 @@ A stunning interactive web application that brings the solar system to life, cra
     npm run build     # Create production build
     npm run preview   # Preview production build
 
-  📜 Available Scripts
+  ### Available Scripts
     npm run dev → Launch development server
     npm run build → Generate production build
     npm run preview → Preview production build
     npm run lint → Run ESLint checks
     npm run format → Format code with Prettier
 
-📁 Project Architecture
-public/
-└── assets/         # SVG Assets & Images
-
-src/
-├── components/           # UI Components
-│   ├── ErrorBoundary     # Error Handling Component
-│   ├── Header            # Main Navigation & Header
-│   ├── InfoTabs          # Planet Information Tabs
-│   ├── LanguageSwitch    # Language Toggle Component
-│   ├── PlanetView        # Planet Display Components
-│   │   └── PlanetInfo    # Planet Details Display
-│   ├── Statistics        # Planet Statistics Display
-│   └── ThemeToggle       # Theme Switch Component
-├── context/        # React Context Providers
-├── hooks/          # Custom React Hooks
-├── i18n/           # Internationalization Config
-├── layouts/        # Layout Templates
-├── pages/          # Route Pages
-├── services/       # API Services
-│   └── api         # API Endpoints
-├── types/          # TypeScript Definitions
-├── utils/          # Utility Functions
-└── App.tsx         # Root Component
+### Project Architecture
+  public/
+  └── assets/         # SVG Assets & Images
+  src/
+  ├── components/           # UI Components
+  │   ├── ErrorBoundary     # Error Handling Component
+  │   ├── Header            # Main Navigation & Header
+  │   ├── InfoTabs          # Planet Information Tabs
+  │   ├── LanguageSwitch    # Language Toggle Component
+  │   ├── PlanetView        # Planet Display Components
+  │   │   └── PlanetInfo    # Planet Details Display
+  │   ├── Statistics        # Planet Statistics Display
+  │   └── ThemeToggle       # Theme Switch Component
+  ├── context/        # React Context Providers
+  ├── hooks/          # Custom React Hooks
+  ├── i18n/           # Internationalization Config
+  ├── layouts/        # Layout Templates
+  ├── pages/          # Route Pages
+  ├── services/       # API Services
+  │   └── api         # API Endpoints
+  ├── types/          # TypeScript Definitions
+  ├── utils/          # Utility Functions
+  └── App.tsx         # Root Component
 
 
 
